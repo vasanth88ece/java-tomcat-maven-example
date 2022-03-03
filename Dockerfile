@@ -1,3 +1,3 @@
 From tomcat:8-jre8 
 MAINTAINER "guhan" 
-COPY target/java-tomcat-maven-example.war /usr/local/tomcat/webapps/java-tomcat-maven-example
+COPY ./java-tomcat-maven-example.war /usr/local/tomcat/webapps/
